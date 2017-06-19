@@ -1,5 +1,5 @@
 div.Container {width:100%}
-div.HeaderDiv {padding-top: 15px; padding-bottom: 15px;}
+div.HeaderDiv {padding-top: 20px; padding-bottom: 15px; padding-right: 50px; padding-left: 15px;}
 body { font-family:verdana; font-size: 15Px; width:100%;}
 h1.Page_Heading {font-weight:bold; font-size: 25Px; display:inline; padding-left: 200px;}
 div.info_seg { padding-bottom: 10px;}
