@@ -4,7 +4,7 @@ body { font-family:verdana; font-size: 15Px; width:100%;background-color: #fffff
 h1.Page_Heading {font-weight:bold; font-size: 25Px; display:inline; padding-left: 200px;}
 div.info_seg { padding-bottom: 10px; padding-right: 60px; padding-left: 60px;}
 h3.info_segL {padding-top: 6px;}
-footer {text-align: center; font-size: 10px; width:100%;  background-color: #ECF0F1; height:80px;}
+footer { padding-bottom: 15px; height:80px; padding-right: 60px; padding-left: 60px;}
 span.Mid_info {font-weight:bold;}
 img.head_lg {float:left;}
 h2 {font-size: 20Px;}
