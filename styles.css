@@ -12,7 +12,7 @@ h3 {font-size: 18Px;}
 a.MenuItem {float:right; display:inline; padding-top: 3px; cursor:pointer;}
 img.Small_Btn:hover
 {
-  opacity:2;
+  opacity:1;
   transition: opacity .2s ease-out;
   -moz-transition: opacity .2s ease-out;
   -webkit-transition: opacity .2s ease-out;
