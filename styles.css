@@ -18,3 +18,4 @@ img.Small_Btn:hover
   -webkit-transition: opacity .2s ease-out;
   -o-transition: opacity .2s ease-out; }
 div.Left_footer {float:left; clear:left;}
+div.Middle_footer {float:left; display:inline; padding-left: 250px; padding-top:40px;}
