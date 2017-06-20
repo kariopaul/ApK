@@ -20,7 +20,7 @@
 </div>
 
 <div class="info_seg"><h2>3. MAIN PAGE</h2>
-	<h3 class="info_segL"><a href="#ModelPane">a. Model Pane</a></h3>
+	<h3 class="info_segL">a. Model Pane</h3>
 <img src="images\ModelPane.png" alt="Enter Model Parameters" style="width:800px;height:232px;">
 
 	<P><Span class="Mid_info">Select Case to Run:</Span> This is a drop down box of the different scenarios outlined on the assumptions page. This should read baseline, optimistic, conservative 1, and conservative 2. After entering data that describes each case, you then select which case you want to run, after which you press the refresh button to see the results of your model.</P>
@@ -35,7 +35,7 @@
 
 	<P><Span class="Mid_info">Units:</span> This is a drop down box of the units of the data that you will be inserting in the model. The unit selected will be applied throughout the model for consistency.</P>
 
-	<h3 class="info_segL"><a href="#Macrodata">b. Macroeconomic Data Pane</a></h3>
+	<h3 class="info_segL">b. Macroeconomic Data Pane</h3>
 <img src="images\MacroData.png" alt="Enter Macroeconomic Data" style="width:665px;height:145px;">
 
 	<P><Span class="Mid_info">Nominal Gross Domestic Product:</span> This represents the nominal gross domestic product on a fiscal year basis. The units used here follow from the units entered in part 3a.</P>
@@ -48,19 +48,19 @@
 
 	<P><Span class="Mid_info">Local Currency:</span> This is a drop down box of the local currency of the fiscal accounts. Please select your local currency here from the drop down box. If it is not there it will be added, <a href="mailto:kariopaul@hotmail.com?Subject=Currency%20Addition" target="_top">send us an email</a></P>
 
-	<h3 class="info_segL"><a href="#Creditrisk">c. Sovereign Credit Risk Parameters</a></h3>
+	<h3 class="info_segL">c. Sovereign Credit Risk Parameters</h3>
 <img src="images\CreditRisk.png" alt="Enter Credit Ratings" style="width:644px;height:235px;">
 
 	<p><Span class="Mid_info">Credit Risk Rating:</span> Here you enter the credit rating assigned by the various credit rating agencies. Both LC Debt —local currency debt and FC Debt —foreign currency debt are needed. Upon clicking the cell a drop down box will be presented. You will have to select the rating from the drop down box. You will also need to insert the date of the last credit rating update.</p>
 
-	<h3 class="info_segL"><a href="#IbuildUp">d. Interest Rate Build Up</a></h3>
+	<h3 class="info_segL">d. Interest Rate Build Up</h3>
 <img src="images\IbuildUp.png" alt="Determine Yield Curve Parameters" style="width:420px;height:70px;">
 
 	<p><Span class="Mid_info">5Y CDS (basis points):</span> This is the 5 year credit default swap spread in basis points. We use this variable to determine the yield curve for dollar denominated sovereign bonds. To use the 5 Year CDS you go to the "Use?" column and insert 1 otherwise enter 0. Both the 5 Year CDS and the 10-Yr US Spreads should not have a "Y" at the same time.</P>
 
 	<p><Span class="Mid_info">10-Yr US Spreads:</span> This is the 10 year US dollar denominated sovereign bond spread relative to rate on US treasury bonds of similar tenor. To use the 10 Year spread to treasury, you enter a 1 in the "Use ?" column. Both the 5 Year CDS and the 10-Yr US Spreads should not have a Y at the same time. Note that to use your own global bond yield curve enter no for both spreads and move to the assumptions page to enter your own yield curve.</P>
 
-	<h3 class="info_segL"><a href="#DebtModelParam">e. Debt Modelling Parameters</a></h3>
+	<h3 class="info_segL">e. Debt Modelling Parameters</h3>
 <img src="images\DebtM.png" alt="Enter Maximum Debt for each bucket-% of GDP" style="width:449px;height:164px;">
 
 	<p><Span class="Mid_info">Debt Modelling Parameters:</span> These parameters determine the maximum amount of debt for each year for each bucket. There are 6 buckets available. For each of these buckets the maximum is determined as a percentage of nominal GDP for each year. In other words, the maximum determines the amount of debt for each bucket that the market will tolerate each year. Domestic debt are instruments issued to the local market, whilst external debt are instruments issued to the external debt capital markets. The debt check determines whether the maximum used is consistent with the historical pattern of debt accumulation.</p>
@@ -72,10 +72,10 @@
 
 <p>The paydown and accumulated rank orders is tied to the debt modelling parameters. In the sense that each debt is accumulated up until they hit the maximum amount allowable. Each debt is paid until they hit zero before the next ranked debt is paid down.</p>
 
-	<h3 class="info_segL"><a href="#Glance">g. Fiscal At A Glance</a></h3>
+	<h3 class="info_segL">g. Fiscal At A Glance</h3>
 	<p><Span class="Mid_info">Summary:</span> This is a brief summary of the fiscal variables in the terminal year. The user should enter his/her targets for the various fiscal benchmarks in the grey shaded cells.</P>
 
-	<h3 class="info_segL"><a href="#DebtOS">h. Debt Outstanding</a></h3>
+	<h3 class="info_segL">h. Debt Outstanding</h3>
 <img src="images\DebtOS.png" alt="Enter figures for each debt bucket" style="width:1043px;height:355px;">
 
 <P>This section defines the debt parameters used to model the debt over time. Data entered here must be the same as that registered at the end of the last fiscal year.</P>
@@ -105,7 +105,7 @@
 </div>
 
 <div class="info_seg"><h2>4. ASSUMPTIONS PAGE</h2>
-	<h3 class="info_segL"><a href="#General">a. General</a></h3>
+	<h3 class="info_segL">a. General</h3>
 	<img src="images\GenAss.png" alt="Select type of forecasting method" style="width:459px;height:134px;">
 
 	<h3 class="info_segL"><a href="#Ycurve">b. Yield Curve</a></h3>
@@ -124,13 +124,13 @@
 
 	<p><Span class="Mid_info">Importance of Refreshing Model:</span> After each change to the model page click the refresh button to obtain the most recent projection. Without refreshing the model, the model will produce incorrect results.</p>
 
-	<p><Span class="Mid_info">Do model Check at Line 99:</span> The <a href="#ModelCheck">model check</a> line should show "Ok". If this is not the case then something may be wrong with the size of the debt bucket chosen. It could also mean that one of the formulas have been tampered with. Please contact customer success if you run into road blocks here.</p>
+	<p><Span class="Mid_info">Do model Check at Line 99:</span> The model check line should show "Ok". If this is not the case then something may be wrong with the size of the debt bucket chosen. It could also mean that one of the formulas have been tampered with. Please contact customer success if you run into road blocks here.</p>
 
 </div>
 
 <div class="info_seg"><h2>6. NOTATIONS</a></h2>
 
-<p>The list of <a href="#notation">notations</a> used in our model is listed below</p>
+<p>The list of notations used in our model is listed below</p>
 
 <ul>
 	<li>A - Actual Data</li>
@@ -145,7 +145,7 @@
 <div class="info_seg"><h2>5. RESULTS</h2>
 
 <img src="images\Results.png" alt="Do Sensitivity Analysis" style="width:873px;height:215px;">
-	<p><a href="#Results">Our results page</a> shows the main economic variables that captures the status of the debt and the deficit overtime. It also allows us to assess the impact of shocks to key independent variables. When doing the shocks please refersh model to get the most accurate results.</p>
+	<p>Our results page shows the main economic variables that captures the status of the debt and the deficit overtime. It also allows us to assess the impact of shocks to key independent variables. When doing the shocks please refersh model to get the most accurate results.</p>
 </div>
 
 <footer><div><hr style ="clear: left;"></div>
