@@ -17,6 +17,6 @@ img.Small_Btn:hover
   -moz-transition: opacity .2s ease-out;
   -webkit-transition: opacity .2s ease-out;
   -o-transition: opacity .2s ease-out; }
-div.Left_footer {float:left; clear:left;}
+div.Left_footer {float:left; clear:right;}
 a.Middle_footer {display:inline; padding-left: 250px; padding-top: 40px;}
 
